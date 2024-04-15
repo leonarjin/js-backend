@@ -21,7 +21,7 @@
    },
    "scripts": {
       "start": "ts-node src/index.ts",
-      "typeorm": "typeorm-ts-node-commonjs",
-      "dev": "nodemon src/index.ts"
+      "typeorm": "typeorm-ts-node-commonjs --config src/data-source.ts",
+      "dev": "nodemon --watch src --exec ts-node src/index.ts"
    }
 }
