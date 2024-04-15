@@ -6,11 +6,11 @@ import { Tasks } from "./entity/Tasks"
 
 export const AppDataSource = new DataSource({
     type: "postgres",
-    host: "isabelle.db.elephantsql.com",
+    host: "salt.db.elephantsql.com",
     port: 5432,
-    username: "tdkdozcs",
-    password: "cSVPoSyaLtXWqY-kmLTG_oVOsLU3Vucf",
-    database: "tdkdozcs",
+    username: "sysjuccs",
+    password: "6qJklLIwqEGoH1Tlc0XKuRSLcqA-A8YM",
+    database: "sysjuccs",
     synchronize: true,
     logging: false,
     entities: [User, Tasks],
