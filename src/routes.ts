@@ -4,7 +4,7 @@ import { deleteTask, finishedTask, getTask, getTasks, saveTasks, updateTask } fr
 const routes = Router();
 
 routes.get('/home',(request: Request, response: Response) => {
-    return response.json({message: "Hello mikinha"})
+    return response.json({message: "Hello"})
 });
 
 routes.get("/tasks", getTasks)
