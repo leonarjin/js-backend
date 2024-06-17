@@ -11,7 +11,7 @@ AppDataSource.initialize().then(async () => {
 
   // Configuração do CORS
   app.use(cors({
-    origin: 'http://localhost:3000', // Permitir requisições do frontend rodando em localhost:3000
+    origin: ['http://localhost:3000','https://js-frontend-eight.vercel.app'], // Permitir requisições do frontend rodando em localhost:3000
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Métodos HTTP permitidos
     allowedHeaders: ['Content-Type', 'Authorization'] // Cabeçalhos permitidos
   }));
